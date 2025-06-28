@@ -8,7 +8,7 @@ const LandingPage = () => {
         {["WE CREATE", "EYE-OPENING", "PRESENTATONS"].map((item, index) => {
           return (
             <div className="masker" key={index}>
-              <h1 className='text-9xl tracking-tighter px-10'>
+              <h1 className='text-8xl tracking-tighter  px-10'>
                 {item}
               </h1>
             </div>
@@ -16,7 +16,7 @@ const LandingPage = () => {
         })}
       </div>
 
-      <div className="border-t-[1px] border-zinc-700 mt-40 flex justify-around">
+      <div className="border-t-[1px] border-zinc-700 mt-10 flex justify-around">
         {["For pubic and private companies", "From the first pitch to IPO"].map(
           (item, index) => {
             return (
